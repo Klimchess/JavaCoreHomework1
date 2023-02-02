@@ -1,5 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+ //       Lada Granta, 2015 год выпуска, сборка в России, желтого цвета, объем двигателя — 1,7 л.
+  //              Audi A8 50 L TDI quattro, 2020 год выпуска, сборка в Германии, черный цвет кузова, объем двигателя — 3,0 л.
+   //             BMW Z8, сборка в Германии в 2021 году, черный цвет кузова, объем — 3,0 л.
+  //              Kia Sportage 4-го поколения, 2018 год выпуска, сборка в Южной Корее, цвет кузова — красный, объем двигателя — 2,4 л.
+   //             Hyundai Avante, сборка в Южной Корее, цвет кузова — оранжевый, объем двигателя — 1,6 л, год выпуска — 2016 год.
+        Car myCar1 = new Car("Lada ","Granta" ,1.7,"желтый",2015, "Россия");
+        Car myCar2 = new Car("Audi","A8 50 L TDI quattro",3.0,"чёрный",2021,"Германия");
+        Car myCar3 = new Car("KIA","Sportage 4-го поколения", 2.4,"красный",2018,"Южная Корея");
+        Car myCar4 = new Car("BMW", "Z8",3.0,"чёрный",2021,"Германия");
+        Car myCar5 = new Car("Hyundai", "Avante",1.6, "оранжевый",2016,"Южная Корея");
+        System.out.println(myCar1 + "" + myCar2 + "" + myCar3 + "" + myCar4 + "" + myCar5);
     }
 }
